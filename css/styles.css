@@ -1,0 +1,75 @@
+body {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 26px !important;
+}
+
+.scrollable-content {
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.scrollable-content::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scrollable-content::-webkit-scrollbar-thumb {
+  background-color: #3999D5;
+  border-radius: 3px;
+}
+
+.scrollable-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.background {
+  background-image: url('/img/bgs/Banner-Sell-Adm.png');
+  background-size: cover; /* Redimensiona a imagem para cobrir o contêiner */
+  background-position: top; /* Centraliza a imagem */
+  height: 100vh; /* Ajusta a altura do contêiner para 100% da altura da viewport */
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+@media (max-width: 768px) {
+  .background {
+      background-size: contain; /* Ajusta a imagem para caber dentro do contêiner */
+      height: auto; /* Ajusta a altura do contêiner automaticamente */
+      min-height: 35vh; /* Garante que a altura mínima seja 100% da altura da viewport */
+  }
+}
+
+.btn-souCliente {
+  border: 3px solid white !important;
+  color: white !important;
+  background-color: rgb(0, 0, 0, 0.3) !important;
+  transition: background-color 0.3s, color 0.3s !important;
+}
+
+.btn-souCliente:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.navbar {
+  transition: all 0.4s;
+}
+
+.navbar.scrolled {
+  background-color: white !important;
+}
+
+.navbar.scrolled .nav-link,
+.navbar.scrolled .navbar-brand img {
+  color: black !important;
+}
+
+.navbar.scrolled .btn-souCliente {
+  color: white !important;
+  background-color: black !important;
+  border-color: black !important;
+}
+
+.texto-pg1 {
+  font-weight:bolder;
+  font-size: 55px;
+}
