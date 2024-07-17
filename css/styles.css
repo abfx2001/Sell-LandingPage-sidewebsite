@@ -30,13 +30,28 @@ body {
   position:relative;
 }
 
+.logo-sell {
+  padding-left: 3rem;
+}
+
 @media (max-width: 768px) {
   .background {
       background-size: contain; /* Ajusta a imagem para caber dentro do contêiner */
       height: auto; /* Ajusta a altura do contêiner automaticamente */
       min-height: 35vh; /* Garante que a altura mínima seja 100% da altura da viewport */
   }
+  body {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 15px !important;
+  }
+  .logo-sell {
+    padding-left: 0;
+  }
+  .nav-bg {
+    background-color: #090063c1;
+  }
 }
+
 
 .btn-souCliente {
   border: 3px solid white !important;
