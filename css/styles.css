@@ -48,7 +48,7 @@ body {
     padding-left: 0;
   }
   .nav-bg {
-    background-color: #090063c1;
+    background-color: #14293f;
   }
 }
 
@@ -62,7 +62,7 @@ body {
 
 .btn-souCliente:hover {
   background-color: white !important;
-  color: black !important;
+  color: #14293f !important;
 }
 
 .navbar {
@@ -75,13 +75,13 @@ body {
 
 .navbar.scrolled .nav-link,
 .navbar.scrolled .navbar-brand img {
-  color: black !important;
+  color: #14293f !important;
 }
 
 .navbar.scrolled .btn-souCliente {
   color: white !important;
-  background-color: black !important;
-  border-color: black !important;
+  background-color: #14293f !important;
+  border-color: #14293f !important;
 }
 
 .texto-pg1 {
