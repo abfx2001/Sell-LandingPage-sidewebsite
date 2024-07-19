@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif !important;
-  font-size: 26px !important;
+  font-size: 20px !important;
 }
 
 .scrollable-content {
@@ -23,9 +23,9 @@ body {
 
 .background {
   background-image: url('/img/bgs/Banner-Sell-Adm.png');
-  background-size: cover; /* Redimensiona a imagem para cobrir o contêiner */
-  background-position: top; /* Centraliza a imagem */
-  height: 100vh; /* Ajusta a altura do contêiner para 100% da altura da viewport */
+  background-size: cover;
+  background-position: top;
+  height: 100vh; 
   background-repeat: no-repeat;
   position:relative;
 }
@@ -36,9 +36,9 @@ body {
 
 @media (max-width: 768px) {
   .background {
-      background-size: contain; /* Ajusta a imagem para caber dentro do contêiner */
-      height: auto; /* Ajusta a altura do contêiner automaticamente */
-      min-height: 35vh; /* Garante que a altura mínima seja 100% da altura da viewport */
+      background-size: contain; 
+      height: auto; 
+      min-height: 35vh;
   }
   body {
     font-family: 'Poppins', sans-serif !important;
@@ -50,8 +50,15 @@ body {
   .nav-bg {
     background-color: #14293f;
   }
+  .navbar.scrolled .nav-bg{
+    background-color: rgb(228, 228, 228);
+  }
+  .texto-pg1 {
+    top: 0px !important;
+    font-size: 30px !important;
+    color: #14293f !important;
+  }
 }
-
 
 .btn-souCliente {
   border: 3px solid white !important;
@@ -87,4 +94,7 @@ body {
 .texto-pg1 {
   font-weight:bolder;
   font-size: 55px;
+  position: relative; 
+  top: -510px;
+  color: white;
 }

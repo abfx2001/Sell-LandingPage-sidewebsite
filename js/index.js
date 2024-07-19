@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var logoImg = document.getElementById('logo-img');
 
   window.onscroll = function() {
-    if (window.scrollY > 100) { // ajuste o valor conforme necessário
+    if (window.scrollY > 100) {
       navbar.classList.add('scrolled');
       navbar.classList.add('fixed-top');
       logoImg.src = '/img/icons/Logo-Sell-Adm-Colorido.png';
