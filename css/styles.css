@@ -31,10 +31,27 @@ body {
 }
 
 .logo-sell {
-  padding-left: 3rem;
+  height: 88px;
+  width: 220px;
+}
+.img-scrolled {
+  width: 150px;
+  height: 60px;
+}
+.nav-link {
+  font-size: 25px !important;
+  font-weight: 400;
+}
+.container-nav {
+  margin-left: 200px !important;
+  margin-right: 50px !important;
 }
 
 @media (max-width: 768px) {
+  .logo-sell{
+    height: 70px;
+    width: 160px;
+  }
   .background {
       background-size: contain; 
       height: auto; 
@@ -69,6 +86,10 @@ body {
   }
   .bg-3 {
     margin-top: 180px;
+    height: 70vh !important;
+  }
+  .bg-4 {
+    height: 85vh !important; 
   }
   .texto-pg3 {
     font-size: 35px !important;
@@ -79,9 +100,13 @@ body {
   .texto-pg4 {
     font-size: 30px !important;
     margin-top: 0px !important;
+    padding: 0px !important;
+    text-align: center;
   }
   .texto2-pg4 {
-    font-size: 24px !important;
+    font-size: 20px !important;
+    padding-left: 10px !important;
+    text-align: justify;
   }
   .text-pg6 {
     font-size: 30px !important;
@@ -125,12 +150,32 @@ body {
     font-size: 15px !important;
     margin-bottom: 5px !important;
   }
+  .img-app-sell {
+    display: none !important;
+  }
+  .text-app2 {
+    font-size: 45px !important;
+  }
+  .text-app3 {
+    font-size: 30px !important;
+  }
+  .text-pg8 {
+    text-align: justify;
+    font-size: 48px !important;
+    margin-top: 0px !important;
+  }
+  .btn-saibaMais {
+    margin-left: 50px;
+  }
+  .text-app {
+    margin-left: 10px !important;
+  }
 }
 
 .btn-souCliente {
   border: 3px solid white !important;
   color: white !important;
-  background-color: rgb(0, 0, 0, 0.3) !important;
+  background-color: rgb(0, 0, 0, 0.4) !important;
   transition: background-color 0.3s, color 0.3s !important;
 }
 
@@ -141,6 +186,7 @@ body {
 
 .navbar {
   transition: all 0.4s;
+  align-items: center;
 }
 
 .navbar.scrolled {
@@ -150,6 +196,7 @@ body {
 .navbar.scrolled .nav-link,
 .navbar.scrolled .navbar-brand img {
   color: #14293f !important;
+
 }
 
 .navbar.scrolled .btn-souCliente {
@@ -222,6 +269,13 @@ body {
   background-image: url('/img/bgs/pg3-fundo-clean.png');
   background-size: cover;
   height: 110vh; 
+  background-repeat: no-repeat;
+}
+
+.bg-4 {
+  background-image: url('/img/bgs/download.gif');
+  background-size: cover;
+  height: 70vh; 
   background-repeat: no-repeat;
 }
 
@@ -367,4 +421,91 @@ body {
 }
 .mapa {
   margin-top: 100px;
+}
+.img-app-sell {
+  width: 510px;
+  margin-left: 270px;
+}
+.img-qrcode {
+  width: 120px;
+}
+.text-app {
+  font-size: 20px;
+  color: white;
+  margin-right: 30px;
+  margin-left: 145px;
+}
+.text-app2 {
+  font-size: 80px;
+  font-weight:400;
+  color: white;
+}
+.text-app3 {
+  font-size: 40px;
+  font-weight: bolder;
+  color:#3999D5
+}
+
+.btn-baixar {
+  color:#14293f !important;
+  background-color: white !important;
+  border-radius: 25px !important;
+  font-size: 25px !important;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.text-app4 {
+  font-weight: bolder;
+  margin-right: 5px;
+}
+.img-cond {
+  width: 300px !important;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+  width: 350px;
+}
+.carousel-inner {
+  padding: 1em;
+}
+@media (min-width: 768px) {
+  .card img {
+    height: 11em !important;
+  }
+}
+
+.btn-2 {
+  border: 3px solid white;
+  color: white;
+  background-color: rgb(0, 0, 0, 0.3);
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.efeito-txt2,
+.efeito-txt2-1,
+.efeito-txt2-2,
+.efeito-txt2-3,
+.efeito-txt2-4,
+.efeito-txt2-5,
+.efeito-txt3-1,
+.efeito-txt3-2,
+.efeito-txt3-3,
+.efeito-txt2,
+.efeito-txt1,
+.efeito-btn1, 
+.efeito-btn2 {
+  visibility: hidden;
 }
